@@ -2,14 +2,16 @@
 <html lang="pt-PT">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nolttyn Tavares">
+    <meta name="description" content="Página de contactos do portfólio de Anilton Tavares">
     <title>Contactos</title>
 
 
   <!--CONTACTOS-->
- <h1>Contactos</h1>
+ <h1>Contactos/Anilton Tavares</h1>
  
 
-    
+<link rel="stylesheet" href="css/style.css"/>
 
 </p>
 <section>
@@ -63,7 +65,6 @@
 
 
 
-
 </table>
 
 
@@ -79,6 +80,71 @@
         > <button style="background-color: blueviolet"; >Meu perfil do github</button></a></p> <br>
 <a href="index.html"><button> Voltar ao Início</button></a>
 
+</section>
+<!--css da tabela de projectos-->
 
+
+<h2>preencha os campos do formulário abaixo para entrar em contacto, caso queira discutir uma parceria ou assuntos mais profundos.
+</h2>
+<section id="formulário-Parceria">
+<form action="#" method="post">
+<fieldset>
+  <legend>Formulário Parceria
+  </legend>
+  <p>
+<label for="Nome">Nome completo:</label> <br/>
+
+<input type="text" id="nome" name="Nome completo" placeholder="ex:pedro alves" required
+minlength="4"/></p>
+
+<p>
+<label for="email">correio eletrónico:</label> <br/>
+<input type="email" id="email" name="email" placeholder="mario@exemplo.com" required/>
+
+</p>
+
+
+<p>
+<label for="telefone">Telefone/ Telemóvel:</label> <br/>
+<input type="tel" id="telefone" name="telefone" placeholder="98 266 377">
+
+
+</p>
+
+<p>
+<label for="mensagem"> sua Mensagem:</label><br/>
+<textarea id="mensagem"
+name="mensagem"
+rows="6"
+cols="40"
+placeholder="Escreva aqui a sua mensagem para mim"
+required></textarea>
+</p>
+<p>
+  <label for="email">Email Alternativo</label>
+<input type="radio"
+id="email"
+name="preferencia"
+value="email"
+checked/> <br/><label>Telefone</label>
+<input type="radio" 
+ID="telefone"
+name="preferencia"
+required>
+
+<br/>
+<p>
+<label for="autorização">Autorização para o uso dos seus dados, não lhe roubaremos</label>
+<input id="autorização" name="autorização" type="checkbox"required> <br/>
+
+<button>Enviar</button>
+</p>
+</fieldset>
+
+
+
+</form>
+
+</section>
 
 </html>
